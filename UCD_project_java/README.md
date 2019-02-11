@@ -1,7 +1,6 @@
 <h2>BigData basics using Java -College Project-UCD</h2>
 
-<h4>Here we will try to solve very priliminary Bigdata problems, stated below:</h4>
-
+<h4>Here we will try to solve very priliminary Bigdata problems using java, stated below:</h4>
 <p>
 Upload the 6 books in your HDFS and compute the following statistics on the corpus
 
@@ -22,9 +21,7 @@ with the words and their frequency.
 <h4>Solution:</h4>
 <p>
 
-
 1.Download the pg*.txt files into a directory from resources folder.
-
 2.create a directory in hadoop filesystem
 	hadoop fs -mkdir input
 3.verify if the directory has been created using hadoop fs -ls command
@@ -34,20 +31,14 @@ with the words and their frequency.
        hadoop fs -ls input
 netbeans:
 6.Load the project in netbeans using import zip if you are downloading the zip file
-
 7.click on clean and build
-
 8. from the output window copy the jar file location
 /home/user1/NetBeansProjects/BigData/dist/BigData.jar
-
 9. run the jar file from terminal as below
 hadoop jar <jar file location>  <packagename.main class> <input_dir> <output dir>
-
 hadoop jar /home/user1/NetBeansProjects/BigData/dist/BigData.jar wordcount.Q1JobControl input out
-
 10. to rerun remove the <output dir> from hadoop filesystem
 hadoop fs -rm -r  -f out
-	
 </p>
 
 
