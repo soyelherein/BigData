@@ -43,4 +43,5 @@ hadoop jar /home/user1/NetBeansProjects/BigData/dist/BigData.jar wordcount.Q1Job
 
 10. to rerun remove the <output dir> from hadoop filesystem
 hadoop fs -rm -r  -f out
-  
+
+
