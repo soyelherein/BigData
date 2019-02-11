@@ -1,4 +1,4 @@
-BigData basics using Java -College Project-UCD
+#BigData basics using Java -College Project-UCD
 
 
 Upload the 6 books in your HDFS and compute the following statistics on the corpus
@@ -16,7 +16,7 @@ appear the most after it. E.g. "the cat belongs to the old lady from the hamlet"
 "cat ", "old" and "hamlet" would be candidates. The output should contains 5 lines
 with the words and their frequency.
 
-Solution:
+#Solution:
 
 
 1.Download the pg*.txt files into a directory from resources folder.
