@@ -1,6 +1,8 @@
 <h2>BigData basics using Java -College Project-UCD</h2>
 
+<h4>Here we will try to solve very priliminary Bigdata problems, stated below:</h4>
 
+<p>
 Upload the 6 books in your HDFS and compute the following statistics on the corpus
 
 1. (One single job) what is the number of distinct words in the corpus? how many
@@ -15,8 +17,10 @@ document in the corpus.
 appear the most after it. E.g. "the cat belongs to the old lady from the hamlet" !
 "cat ", "old" and "hamlet" would be candidates. The output should contains 5 lines
 with the words and their frequency.
+</p>
 
-#Solution:
+<h4>Solution:</h4>
+<p>
 
 
 1.Download the pg*.txt files into a directory from resources folder.
@@ -43,5 +47,7 @@ hadoop jar /home/user1/NetBeansProjects/BigData/dist/BigData.jar wordcount.Q1Job
 
 10. to rerun remove the <output dir> from hadoop filesystem
 hadoop fs -rm -r  -f out
+	
+</p>
 
 
