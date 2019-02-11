@@ -21,22 +21,22 @@ with the words and their frequency.
 <h4>Solution:</h4>
 <p>
 
-1.Download the pg*.txt files into a directory from resources folder.
+1.Download the pg*.txt files into a directory from resources folder.</br>
 2.create a directory in hadoop filesystem
-	hadoop fs -mkdir input
-3.verify if the directory has been created using hadoop fs -ls command
+	hadoop fs -mkdir input</br>
+3.verify if the directory has been created using hadoop fs -ls command</br>
 4.copy the files in newly created hdfs directory
-       hadoop fs -put /home/user1/input/* input
+       hadoop fs -put /home/user1/input/* input</br>
 5.Verify the files in hadoop filesystem
-       hadoop fs -ls input
-netbeans:
-6.Load the project in netbeans using import zip if you are downloading the zip file
-7.click on clean and build
+       hadoop fs -ls input</br>
+netbeans:</br>
+6.Load the project in netbeans using import Bigdata.zip if you are downloading the zip file</br>
+7.click on clean and build</br>
 8. from the output window copy the jar file location
-/home/user1/NetBeansProjects/BigData/dist/BigData.jar
+/home/user1/NetBeansProjects/BigData/dist/BigData.jar</br>
 9. run the jar file from terminal as below
 hadoop jar <jar file location>  <packagename.main class> <input_dir> <output dir>
-hadoop jar /home/user1/NetBeansProjects/BigData/dist/BigData.jar wordcount.Q1JobControl input out
+hadoop jar /home/user1/NetBeansProjects/BigData/dist/BigData.jar wordcount.Q1JobControl input out</br>
 10. to rerun remove the <output dir> from hadoop filesystem
 hadoop fs -rm -r  -f out
 </p>
